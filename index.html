@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css'>
+
+    <meta charset="utf-8">
+    <title>Hots Draft Alpha v2</title>
+  </head>
+  <body>
+    <section class="hero is-dark">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            HOTS Draft
+          </h1>
+        <div id='mapName'>
+        </div>
+        <div id='selectSpace'>
+          <h4>Select Map<h4>
+          <div id='map_dropdown'>
+          </div>
+        </div>
+      </div>
+    </section>
+      <div class='columns'>
+
+        <div class="column is-one-third">
+          <div class="container is-fluid">
+          <div id='red' class= 'tile is-child'>
+            <div class="box is-light">
+              <u>Red Team</u>
+            </div>
+            </div>
+        </div>
+      </div>
+      <div class="column is-one-third">
+        <div class="container is-fluid">
+          <div id='blue' class= 'tile is-child'>
+            <div class="box">
+            <u>Blue Team</u>
+            </div>
+        </div>
+      </div>
+      </div>
+      <div class="column is-one-third">
+        <div class="container is-fluid">
+        <div id='ban' class= 'tile is-child'>
+          <div class ='box'>
+            <u>Bans</u>
+          </div>
+        </div>
+        </div>
+
+      </div>
+
+
+    </div>
+    <footer>
+      <div class="container is-fluid is-dark">
+      <a class='button is-primary' id='reset'>Reset Draft</a>
+      <p>Powered by HOTSApi and styled with Bulma</p>
+    </div>
+    </footer>
+
+  </body>
+  <script src="app.js" charset="utf-8"></script>
+  <script src="maps.js" charset="utf-8"></script>
+  <script src="player.js" charset="utf-8"></script>
+  <script src="replay.js" charset="utf-8"></script>
+  <script src="character.js" charset="utf-8"></script>
+</html>
