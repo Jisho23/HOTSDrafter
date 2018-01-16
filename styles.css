@@ -13,3 +13,8 @@
 #header * {
   background: rgba(40, 40, 100, 0.25);
 }
+
+html,
+body {
+  min-height: 100%;
+}
