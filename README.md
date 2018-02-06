@@ -22,4 +22,6 @@ Use:
 the first 4-5 picks, but after that the sample size is too small and will start firing back 100s or 0s (implying that there is
 only one replay in the database that matches what your draft looks like).
 
- This app was built during fall 2017 and is styled using Bulma.
+ This app was built during fall 2017 - winter 2018 and is styled using Bulma.
+ 
+ Demo video: https://youtu.be/ST_8jGjAxY0
