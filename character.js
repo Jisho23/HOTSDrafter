@@ -65,17 +65,6 @@ const makeCharacterSelectForm = map => {
     newOption = `<option value=${character.id}>${character.name} Role: ${character.role} Avg: ${character.average()} </option>`;
     selectInnerHTML.push(newOption);
   });
-  // $(
-  //   "#selectSpace"
-  // )[0].innerHTML = `<form id='characterSelect'><select id='team'>
-  // <option value='red'>Red</option>
-  // <option value='blue'>Blue</option>
-  // <option value='ban'>Ban</option>
-  // </select>
-  // <select id='characterChoice'>
-  // ${selectInnerHTML.join("")}
-  // <select>
-  // <input type="submit" value="Submit">`;
 
   $("#selectSpace")[0].innerHTML = `<form id='characterSelect'>
 
